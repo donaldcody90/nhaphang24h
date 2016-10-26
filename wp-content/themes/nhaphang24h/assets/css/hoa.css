@@ -4,6 +4,14 @@ a:focus, a:hover{text-decoration: none}
 body ul{
 	-webkit-padding-start: 0px;
 }
+/*Menu*/
+#menu-primary-navigation li.active{
+	background-color:#ffcb16;
+}
+#menu-primary-navigation li:hover a{
+	background: #ffcb16 !important;
+}
+
 /* Search box */
 
 .search-block, .link-user{ padding-top: 27px;}
@@ -229,4 +237,26 @@ ul.order-step li:after{content:" ";width:22px;height:22px;background:url(../img/
 	.origin-block .list-category li{margin-right:22px}
 	.origin-block .list-category li:nth-child(5n){margin-right:22px}
 	.origin-block .list-category li:nth-child(6n){margin-right:-1px}
+}
+
+
+/* Footer Block */
+.footer-block {
+    width: 100%;
+    background-color: #FFF;
+    padding-bottom: 25px;
+}
+.footer-block .footer-container .block {
+    width: 290px;
+    padding-left: 0;
+}
+.footer-block .footer-container .footer-block-title {
+    float: left;
+    width: 100%;
+    color: #4f4f4f;
+    font-weight: 500;
+    padding-top: 55px;
+    padding-bottom: 14px;
+    margin-bottom: 25px;
+    background: url(../img/footer_block_title_bg.png) bottom 0 left 0 repeat-x;
 }

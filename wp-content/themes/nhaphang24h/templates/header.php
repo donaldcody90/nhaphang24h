@@ -62,7 +62,7 @@
 				</div>
 				
 		</div>
-		<div class="row">
+		
 			<div class="main-menu">
 				<div class=" collapse navbar-collapse " role="navigation">
 				<div class="container">
@@ -74,7 +74,7 @@
 				</div>				
 				</div>				
 			</div>
-		</div>
+	
 </div>
 
 <div class="nh-description">
