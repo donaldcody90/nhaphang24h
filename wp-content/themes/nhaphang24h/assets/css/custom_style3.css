@@ -1,0 +1,28 @@
+.ourteam_boxes{
+overflow: hidden;
+font-family: "Myriad Pro";
+}
+.bg_gray{background:#e9e8e8;}
+.ourteam_boxes h1.title{ font-family: "Myriad Pro";text-transform:uppercase;color:#1d4376;font-weight:normal;font-size:34px;margin:0px;padding:0px;}
+.ourteam_boxes h2.subtitle{font-family:"Myriad Pro";color:#00703c;font-size:44px;text-transform:uppercase;font-weight:normal;margin:0px;padding:0px;}
+.ourteam_boxes p.title_line{height:5px;background:#00703c;width:110px;}
+.ourteam_boxes h3.title-style1{font-weight:300;margin: 30px 0px 40px 0px;padding-bottom:7px;}
+.ourteam_boxes h3.title-style1 span{font-weight:500;}
+.ourteam_boxes .ourteam_box{margin-top:20px;}
+.ourteam_boxes .person_info{background:#fff;text-align:center;text-transform:uppercase;padding-bottom:10px;}
+.ourteam_boxes .person_info h3{padding:0px;margin:0px;color:#00703c;}
+.ourteam_boxes .person_image img{max-width:100%;  margin: 0 auto;display: block;width:100%;}
+.ourteam_boxes .social{  background: #d9e3f2;
+  width: 76%;
+  margin: 0 auto;
+  display: block;overflow:hidden;}
+ .ourteam_boxes .social a{float:right;display:block;}
+.ourteam_boxes .col-md-4 .person_info h3{padding:15px 0px 0px 0px;font-size:26px;  font-weight: 300;}
+.ourteam_boxes .col-md-4 .person_info p.email{font-size:20px;margin:0px;}
+.ourteam_boxes .col-md-4 .person_info p.phone{font-size:20px;margin:0px;}
+
+.ourteam_boxes .col-md-3 .social img{width:30px;}
+.ourteam_boxes .col-md-3 .person_info h3{padding:15px 0px 0px 0px;font-size:19px;  font-weight: 300;}
+.ourteam_boxes .col-md-3 .person_info p.email{font-size:15px;margin:0px;}
+.ourteam_boxes .col-md-3 .person_info p.phone{font-size:15px;margin:0px;}
+.p29 h3{font-size:29px;font-weight:normal;}
