@@ -313,7 +313,19 @@ p.hot-line span.email {
     width: 100%;
 }
 .exchange-rate{font-size: 16px;}
-
+.block-post .post-title{
+	width: 100%;
+    padding-left: 20px;
+    background: url(../img/dot.png) left 0 top 5px no-repeat;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+	overflow: auto;
+}
+.block-post .post-title a{
+	color: #2727a5;
+}
+.block-post .post-title a:hover{color: #ddd}
 .footer-block .footer-container .footer-line {
     float: left;
     width: 100%;
