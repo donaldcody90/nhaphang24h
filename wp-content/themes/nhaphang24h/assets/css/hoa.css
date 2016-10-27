@@ -249,6 +249,10 @@ ul.order-step li:after{content:" ";width:22px;height:22px;background:url(../img/
 .footer-block .footer-container .block {
     width: 290px;
     padding-left: 0;
+    /* clear: both; */
+    display: block;
+    float: left;
+    padding-right: 20px;
 }
 .footer-block .footer-container .footer-block-title {
     float: left;
@@ -258,5 +262,101 @@ ul.order-step li:after{content:" ";width:22px;height:22px;background:url(../img/
     padding-top: 55px;
     padding-bottom: 14px;
     margin-bottom: 25px;
+	font-size: 16px;
     background: url(../img/footer_block_title_bg.png) bottom 0 left 0 repeat-x;
+}
+p.hot-line {
+    font-weight: 500;
+    color: #4f4f4f;
+    padding-bottom: 10px;
+    font-size: 15px;
+    border-bottom: 1px solid #EAEAEA;
+}
+p.hot-line span {
+    font-weight: bold;
+    color: #C44853;
+    text-transform: uppercase;
+}
+p.hot-line span.email {
+    display: inline-block;
+    font-weight: 500;
+    text-transform: none;
+    font-size: 14px;
+    color: #696969;
+}
+.footer-block .footer-container .footer-block-contact .footer-block-content .block-address {
+    margin-bottom: 25px;
+}
+.footer-block .footer-container .footer-block-contact .footer-block-content .block-address .address-title {
+    color: #4f4f4f;
+    font-weight: 500;
+    margin-bottom: 5px;
+    float: left;
+    width: 100%;
+}
+.footer-block .footer-container .footer-block-contact .footer-block-content .block-address .address-list {
+    float: left;
+    list-style: none;
+    margin: 0;
+}
+.footer-block .footer-container .footer-block-contact .footer-block-content .block-address .address-list li {
+    width: 100%;
+    padding-left: 20px;
+    background: url(../img/icon_map_position.png) left 0 top 5px no-repeat;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+	overflow: auto;
+}
+.footer-block .footer-container .footer-block-contact .footer-block-content .block-address .address-list li .address, .footer-block .footer-container .footer-block-contact .footer-block-content .block-address .address-list li hotline {
+    float: left;
+    width: 100%;
+}
+.exchange-rate{font-size: 16px;}
+
+.footer-block .footer-container .footer-line {
+    float: left;
+    width: 100%;
+    height: 5px;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 17px;
+}
+.footer-logo-2 {
+    float: left;
+    margin-top: -5px;
+    width: 150px;
+    height: 38px;
+    background: url(../img/nhaphang24h.com.png) no-repeat;
+    display: block;
+}
+.footer-container .company-name {
+    float: left;
+    clear: both;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: #565656;
+}
+.footer-company-name span{
+	float: left; clear: both; font-size: 13px; font-weight: 500; color: #565656;
+}
+.footer-block .footer-container .footer-info {
+    float: right;
+}
+.footer-block .footer-container .footer-info .footer-link {
+    list-style: none;
+    float: left;
+}
+.footer-block .footer-container .footer-info .footer-link li {
+    height: 28px;
+    line-height: 28px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer-block .footer-container .footer-info .footer-link li a {
+    font-size: 13px;
+    color: #626a75;
 }
