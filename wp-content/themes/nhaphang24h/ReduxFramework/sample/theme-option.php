@@ -248,7 +248,12 @@ if (!class_exists('Redux_Framework_theme_option_config')) {
                         'compiler' => 'true',
                         //'mode' => false, // Can be set to false to allow any media type, or can also be set to any mime type.                                                
                     ),
-
+					array(
+                        'id' => 'currentrate',
+                        'type' => 'text',
+                        'url' => true,
+                        'title' => __('Current Rate', 'wpf-framework-demo'),
+                    ),
                   
 
 					
@@ -311,9 +316,23 @@ if (!class_exists('Redux_Framework_theme_option_config')) {
                         'type' => 'text',
                         'url' => true,
                         'title' => __('Phone number', 'wpf-framework-demo'),
-                    ),    
+                    ),
+					array(
+                        'id' => 'img-address',
+                        'type' => 'media',
+                        'url' => true,
+                        'title' => __('IMAGE ADDRESS', 'wpf-framework-demo'),
+                        'compiler' => 'true',
+                        //'mode' => false, // Can be set to false to allow any media type, or can also be set to any mime type.
+                        'default' => array('url' => 'http://s.wordpress.org/style/images/codeispoetry.png'),
+                        'hint' => array(
+                            'title'     => 'Hint Title',
+                            'content'   => 'This is a <b>hint</b> for the media field with a Title.',
+                        )
+                    ),					
                 ),
             );  
+			
              $this->sections[] = array(
                 'title'     => __('Near By Place', 'redux-framework-demo'),
                 'icon'      => 'el-icon-refresh',

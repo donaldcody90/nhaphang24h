@@ -1,6 +1,6 @@
 <div class="footer">
 	<div class="container">
-			<div class="row">
+			
 				<div class="footer-wrapper">
 					<div class="footer-block">
 					  <div class="row footer-container">
@@ -30,11 +30,12 @@
 						  </div>
 						</div>
 						<div class="footer-block-account-info  block">
-						  <span class="footer-block-title">Tỷ giá hiện tại</span>
+						  <span class="footer-block-title">Vị trí cửa hàng</span>
 						  <div class="footer-block-content">
-							<div class="exchange-rate" style="float: left; clear: both;">
-							  <span style="display: block">Trung Quốc: <span style="color: #C44853;font-weight: 500">3,390.00</span></span>
-							  <span style="display: block">Hàn Quốc: <span style="color: #C44853;font-weight: 500">21.20</span></span>
+							<div class="exchange-rate">
+							  <a class="img-address" target="_blank" href="https://www.google.com/maps/@21.0226862,105.7737364,17z">
+								<img src="<?php echo get_theme_option('img-address','url'); ?>" alt="address">
+								</a>
 							</div>
 						  </div>
 						</div>
@@ -69,7 +70,13 @@
 						  </div>
 						</div>
 						<span class="footer-line"></span>
-						<span class="footer-logo-2"></span>
+						<div class="footer-logo-2">
+						
+							<a class="logo	" href="<?php echo get_home_url() ?>">
+								<img src="<?php echo get_theme_option('logo','url'); ?>" alt="logo">
+							</a>
+						</div>
+					
 						<div class="footer-company-name">
 							<h1 class="company-name">công ty tnhh thương mại &amp; Chivi</h1>
 							<span>Mã số doanh nghiệp: 121212121</span>
@@ -89,7 +96,7 @@
 					<div class="copyright">
 						<p><?php echo get_theme_option('copyright-text'); ?></p>
 					</div>
-			</div>
+			
 		</div>
 	</div>
 </div>

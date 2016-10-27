@@ -48,6 +48,9 @@
 						</div>
 						<input type="text" class="search-input header-search" placeholder="Nhập tên sản phẩm tiếng Việt">
 						<input type="submit" class="btn-search" value="" />
+						<div class="current-rate">
+							<span class="rate"><strong>Tỉ giá:</strong> 1 NDT = <?php echo get_theme_option('currentrate'); ?> VNĐ </span>
+						</div>
 					</div>
 					</div>
 					<div class="pull-right  col-sm-3 link-user">
@@ -76,7 +79,9 @@
 			</div>
 	
 </div>
-
+<?php
+	 if(is_front_page() || is_home()) {
+?>
 <div class="nh-description">
 	<div class="container">
 	<div class="row">
@@ -105,19 +110,10 @@
 	</div>
 	</div>
 </div>
+<?php } ?>
 <div class="slider-banner">
 	<?php
 	 if(is_front_page() || is_home()) {
-			echo do_shortcode('[layerslider id="1"]'); 	 			
-		 }else{ 
-			global $post;  
-			if(isset($post->ID)) {
-				$sub_title = get_post_meta($post->ID,'page_sub_title',true); 
-				$image_id = get_post_meta($post->ID,'page_header_image',true); 
-				$image = get_meta_banner($image_id);
-			 }
-		 
-			?>
-				<img class="hidden-mobile" src="<?php echo $image; ?>" />
-	<?php } ?>
+			echo do_shortcode('[layerslider id="1"]'); 	
+	} ?>
 </div>
