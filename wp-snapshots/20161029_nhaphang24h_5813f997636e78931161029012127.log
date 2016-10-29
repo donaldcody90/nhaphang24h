@@ -1,0 +1,75 @@
+********************************************************************************
+PACKAGE-LOG: 2016-10-29 01:22:48
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.1.18
+WORDPRESS:	4.6.1
+PHP INFO:	5.5.11 | SAPI: apache2handler
+SERVER:		Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (1024M default) 
+MEMORY STACK: 15.5MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported 
+TABLES: total:14 | filtered:0 | create:14 
+FILTERED: [] 
+SQL CREATED: 20161029_nhaphang24h_5813f997636e78931161029012127_database.sql 
+SQL FILE SIZE: 560.48KB (573935) 
+SQL FILE TIME: 2016-10-29 01:22:51 
+SQL RUNTIME: 1.88 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  D:/PHP/Xampp/htdocs/nhaphang24h 
+ARCHIVE FILE: 20161029_nhaphang24h_5813f997636e78931161029012127_archive.zip 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	64.25MB 
+STATS:	Dirs 631 | Files 5,763 
+SQL ADDED: 20161029_nhaphang24h_5813f997636e78931161029012127_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6394
+    [filename] => D:\PHP\Xampp\htdocs\nhaphang24h\wp-snapshots\tmp\20161029_nhaphang24h_5813f997636e78931161029012127_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 41.28MB 
+ARCHIVE RUNTIME: 103.82 sec. 
+MEMORY STACK: 17.25MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [D:/PHP/Xampp/htdocs/nhaphang24h/wp-snapshots/tmp/20161029_nhaphang24h_5813f997636e78931161029012127_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 560.48KB 
+Installer File: 347.8KB 
+Archive File: 41.28MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 108.28 sec.
+PEAK PHP MEMORY USED: 19.25MB
+DONE PROCESSING => 20161029_nhaphang24h 2016-10-29 01:24:37
+ 
