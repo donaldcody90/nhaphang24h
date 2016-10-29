@@ -31,7 +31,7 @@
 <?php endif; ?>
 <div class="blog-pages-right">
 <?php while (have_posts()) : the_post(); ?>
-  <?php get_template_part('templates/single','post', get_post_format()); ?>
+  <?php get_template_part('templates/content','blog', get_post_format()); ?>
 <?php endwhile; ?>
 <?php get_template_part('templates/sidebar','page');?>
 </div>
