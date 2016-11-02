@@ -36,4 +36,7 @@
 	.blog-pages-right .single-blogs{padding: 20px; padding-right: 20px!important;}
 	.single-blogs .single-blog .thumbnail-img img{width: 100%; height: auto}
 	.single-blogs .single-blog:after{background: none;}
+	.collapse{display: block!important; visibility: visible!important;}
+	#menu-primary-navigation{width: 100%}
+	#menu-primary-navigation li {width: 100%;float: left;}
 }

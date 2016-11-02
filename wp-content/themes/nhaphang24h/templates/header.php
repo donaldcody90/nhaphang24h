@@ -65,14 +65,8 @@
 				</div>
 				
 		</div>
-		<div class="menu-xs">
-					<div class="container">
-						<a href="#">Menu</a>
-					</div>
-				</div>
-			<div class="main-menu">
-				
-				<div class=" collapse navbar-collapse " role="navigation">
+		<div class="main-menu">	
+			<div class=" collapse navbar-collapse " role="navigation">
 				<div class="container">
 				<?php
 					if (has_nav_menu('primary_navigation')) :
@@ -80,8 +74,8 @@
 					endif;
 				?>
 				</div>				
-				</div>				
-			</div>
+			</div>				
+		</div>
 	
 </div>
 
