@@ -37,10 +37,13 @@ function roots_scripts() {
     );
   }
 
-   $assets['isotope']   = '/assets/js/isotope.min.js';    $assets['fileDownload']   = '/assets/js/jquery.fileDownload.js'; 
+   $assets['isotope']   = '/assets/js/isotope.min.js';   
+   $assets['hoa']   = '/assets/js/hoa.js';   
+   $assets['fileDownload']   = '/assets/js/jquery.fileDownload.js'; 
      
    $assets['custom_style1'] = '/assets/css/custom_style1.css';
    $assets['custom_style2'] = '/assets/css/custom_style2.css';   
+   $assets['bootstrap'] = '/assets/css/bootstrap.css';   
 
    $assets['custom_style3'] = '/assets/css/custom_style3.css';   
    $assets['hoa'] = '/assets/css/hoa.css';   
@@ -68,6 +71,7 @@ function roots_scripts() {
   #wp_enqueue_style('custom_style1', get_template_directory_uri() . $assets['custom_style1'], false, null);
   #wp_enqueue_style('custom_style2', get_template_directory_uri() . $assets['custom_style2'], false, null);
   #wp_enqueue_style('custom_style3', get_template_directory_uri() . $assets['custom_style3'], false, null);
+  wp_enqueue_style('bootstrap', get_template_directory_uri() . $assets['bootstrap'], false, null);
   wp_enqueue_style('hoa', get_template_directory_uri() . $assets['hoa'], false, null);
   wp_enqueue_style('responsive', get_template_directory_uri() . $assets['responsive'], false, null);
 
@@ -94,6 +98,7 @@ function roots_scripts() {
   //wp_enqueue_script('image_light_box_js', get_template_directory_uri() . $assets['image_light_box_js'], array(), null, true);
 
   wp_enqueue_script('roots_js', get_template_directory_uri() . $assets['js'], array(), null, true);
+  wp_enqueue_script('hoa', get_template_directory_uri() . $assets['hoa'], array(), null, true);
   //Add wp-ajax url 
   $translation_array = array( 'ajax_url' => admin_url('admin-ajax.php') , 'site_url' => site_url() );
   wp_localize_script( 'roots_js', 'jsdata', $translation_array );

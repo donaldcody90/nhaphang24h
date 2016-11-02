@@ -31,7 +31,7 @@
 <div class="header">
 		<div class="container">
 				<div class="row top-header-container">
-					<div class="pull-left col-md-3">
+					<div class="pull-left col-md-3 logo-image">
 						<a class="logo	" href="<?php echo get_home_url() ?>">
 							<img src="<?php echo get_theme_option('logo','url'); ?>" alt="logo">
 						</a>
@@ -65,8 +65,13 @@
 				</div>
 				
 		</div>
-		
+		<div class="menu-xs">
+					<div class="container">
+						<a href="#">Menu</a>
+					</div>
+				</div>
 			<div class="main-menu">
+				
 				<div class=" collapse navbar-collapse " role="navigation">
 				<div class="container">
 				<?php
@@ -79,9 +84,7 @@
 			</div>
 	
 </div>
-<?php
-	 if(is_front_page() || is_home()) {
-?>
+
 <div class="nh-description">
 	<div class="container">
 	<div class="row">
@@ -110,7 +113,7 @@
 	</div>
 	</div>
 </div>
-<?php } ?>
+
 <div class="slider-banner">
 	<?php
 	 if(is_front_page() || is_home()) {

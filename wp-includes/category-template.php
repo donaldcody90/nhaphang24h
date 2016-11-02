@@ -602,7 +602,7 @@ function wp_list_categories( $args = '' ) {
 
 	$output = '';
 	if ( $r['title_li'] && 'list' == $r['style'] && ( ! empty( $categories ) || ! $r['hide_title_if_empty'] ) ) {
-		$output = '<li class="' . esc_attr( $r['class'] ) . '">' . $r['title_li'] . '<ul>';
+		$output = '<li class="' . esc_attr( $r['class'] ) . '"> <span class="cat-special-title">' . $r['title_li'] . '</span><ul>';
 	}
 	if ( empty( $categories ) ) {
 		if ( ! empty( $show_option_none ) ) {
