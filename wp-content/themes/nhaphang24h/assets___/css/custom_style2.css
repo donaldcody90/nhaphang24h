@@ -1,0 +1,142 @@
+.text-bold .wpb_wrapper p{/*font-weight: 500;*/}
+.contact-us-rows .contact-us-rows-title h3{font-size: 26px;}
+.contact-us-rows .contact-us-rows-title h3 span{font-size: 26px;}
+h3.title-style-3::after{left: 0; background-position: left;}
+.contact-us-rows-title h3.title-style-3{margin-bottom: 40px !important;}
+
+.wpb_wrapper h3.title-style-4{font-size: 23px;}
+.wpb_wrapper h3.title-style-4 span{font-size: 26px;}
+.wpb_text_column p  span.details-contact{font-size: 18px; text-transform: uppercase; font-weight: 500;}
+.wpb_text_column h3.title-style-4::after{display: none}
+
+.text-top-contact{margin-top: 30px;}
+.text-top-contact .wpb_wrapper p{text-transform: uppercase; font-size: 24px; font-weight: semi-bold;}
+.vc_row {margin-bottom: 0;}
+.contact-us-rows .wpb_single_image{margin-bottom: 15px}
+.contact-us-rows{margin-bottom: 35px;}
+
+.wpb_column .wpb_wrapper .faq-explode-item  .vc_toggle_content{padding-left: 73.2px; margin-top: 0; margin-bottom: 0; text-align: left; font-size: 18px; }
+.wpb_column .wpb_wrapper .faq-explode-item  .vc_toggle_content p{padding-bottom: 0;}
+
+.black-title .vc_toggle .vc_toggle_title  h4{color: #141517; margin-top: 0}
+
+.wpb_column .wpb_wrapper  .vc_toggle {margin-bottom: 0}
+.learn-more .wpb_wrapper p{margin-top: 20px;}
+.learn-more .wpb_wrapper p a{ font-size: 27.4px; color: #2e7f5b; text-decoration: none}
+.learn-more .wpb_wrapper p a:hover{ text-decoration: none}
+.wpb_wrapper .vc_single_image-wrapper{width: 100%}
+.our-team-rows .wpb_single_image{margin-bottom: 0;}
+.our-team-rows .wpb_text_column{background-color: #ffffff; }
+.our-team-rows .wpb_column .wpb_text_column .wpb_wrapper{padding-top: 15px; text-align: center; padding-bottom: 10px;}
+.our-team-rows .wpb_column .wpb_text_column .wpb_wrapper span.single-name{ color: #022840; font-size: 26px; text-transform: uppercase;font-weight: 400}
+.our-team-rows .wpb_column .wpb_text_column .wpb_wrapper span.single-email
+.our-team-rows .wpb_column .wpb_text_column .wpb_wrapper span.single-name
+{ color: #191919; font-size: 20px;font-weight: 500}
+.our-team-rows .wpb_column .wpb_text_column .wpb_wrapper span.social-share{  background: #d9e3f2;  width: 76%;   margin: 0 auto;  display: block; overflow: hidden;}
+.our-team-rows .wpb_column .wpb_text_column .wpb_wrapper span.social-share a{float: right; display: block}
+
+/** Form and Download **/
+#wpdmmydls .row-header {
+	background:#208068;
+	border-radius:4px;
+}
+.download-table {
+	clear:both;
+	font-size:13px;
+}
+.download-table  .download-title {
+	font-size:14px !important;
+	font-weight:bold;
+	font-family:'Arial';
+}
+.row-parent-download {
+	background:#f8f8f8;
+	border-radius:4px;
+	margin-bottom:2px;
+	padding:5px 0;
+	float: left;
+	clear:both;
+	width:100%;	
+}
+.row-parent-download  .col-1  {
+	line-height:28px;
+}
+.row-download.row-download-child  {
+	background:#fff;
+	float:left;
+	clear:both;
+	width:100%;
+    line-height:34px;
+    padding: 5px 0 5px 24px;
+    text-transform: lowercase;
+}
+.row-download.row-download-child input.css-checkbox[type="checkbox"] + label.css-label{
+    margin-top:-1px !important;
+    margin-left:-3px !important;
+}
+
+.row-download.row-download-child:first-child{
+    margin-top:10px;
+}
+.child-content .panel-download-items{margin-bottom:10px;}
+.row-download.row-download-child .col-1 {
+	/*text-indent:24px;*/
+}
+span.all-form {
+    display: block;
+    margin-top: 7px;
+    margin-left: 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Gravity-Bold";
+}
+#wpdmmydls .row-header p {
+	border: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Gravity-Bold";
+    text-transform: uppercase;
+    line-height: 28px;
+    margin: 0;
+    padding: 5px 0;
+}
+input.css-checkbox[type="checkbox"] + label.css-label {
+	margin-left:0px;
+}
+.title-icon {
+    margin-top: 3px;
+    margin-right: 5px;
+    display: block;
+    float: left;
+}
+.title-icon i.fa {
+	font-size:20px !important;
+}
+#file_download_queue .button#start_download_button {
+	background:url('../img/download-bg.png') no-repeat center center;
+	padding: 7px 19px 7px 47px !important;
+	position:relative;
+    font-size: 14px;
+    font-family: "Gravity-Bold";
+    line-height:27px;
+}
+#file_download_queue #start_download_button::before {
+	content:"";
+	position:absolute;
+	top:0px;
+	left:5px;
+	width:40px;
+	height:33px;
+	background:url('../img/icon-download.png') no-repeat center center;
+	display:block;
+}
+#wpdmmydls {
+	border:None;
+}
+#file_download_queue #download_multi_form {
+	padding: 0px 0 20px;
+}
+.navbar-toggle .icon-bar {
+	background: #fff;
+}
+

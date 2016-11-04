@@ -797,3 +797,4 @@ li.cat-item .children li.cat-item a{
 .cat-special-title{
 	display: none;
 }
+.addon a img{max-width: 50px;}
